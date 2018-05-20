@@ -1,0 +1,184 @@
+#hero {
+  text-align: center;
+}
+
+#snippet {
+  background-color: #f9f9f9;
+}
+
+/* Sections */
+
+.page-section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.title-section {
+  margin-bottom: 48px;
+}
+
+.photo-section {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+#schedule {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+/* Specific styles */
+
+p {
+  text-align: justify;
+}
+
+iframe {
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+}
+
+#hero-title,
+#hero-subtitle {
+}
+
+#hero-title {
+	font-family: 'Parisienne', cursive;
+	font-size: 70px !important;
+	font-weight: 400;
+	margin-bottom: 0.7rem !important;
+}
+
+#hero-subtitle {
+	font-size: 22px !important;
+	font-weight: bold;
+	color: white !important;
+	letter-spacing: -0.5px;
+}
+
+.title:not(:last-child),
+.subtitle:not(:last-child) {
+	margin-bottom: 1rem !important;
+}
+
+.subtitle {
+	font-size: 24px !important;
+	color: #707070 !important;
+	margin-top: 0px !important;
+}
+
+.schedule-col-time {
+	letter-spacing: -1px;
+	font-weight: bold;
+	font-size: 14px;
+	padding-right: 32px;
+}
+
+.schedule-col-event {
+	padding-bottom: 24px;
+}
+
+.schedule-item {
+	margin-bottom: 2px;
+}
+
+.schedule-item-sub {
+	color: #707070;
+}
+
+.transportation-title {
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
+
+.snippet-sub {
+  font-size: 14px;
+}
+
+.church-image {
+  max-height: 250px;
+  border-radius: 3px;
+}
+
+.venue-image {
+  max-width: 375px;
+  border-radius: 3px;
+}
+
+.map-div iframe {
+  max-width: 760px;
+}
+
+.mobile-width-fix  {
+  width: 75%;
+}
+
+.is-vcentered {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.qa-question {
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.qa-question:not(:first-child) {
+	margin-top: 64px;
+}
+
+.qa-answer {
+	color: #707070;
+	margin-left: 24px;
+	text-align: left !important;
+}
+
+hr.divider {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #fbfbfb;
+    color: #fbfbfb;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+
+hr.divider:after {
+    content: "JN";
+    display: inline-block;
+    position: relative;
+    top: -1.15em;
+    font-size: 0.75em;
+    padding: 0 0.25em;
+    background: white;
+    color: #cacaca;
+}
+
+/* Responsive Queries */
+@media (max-width: 768px) {
+  .title-section {
+    margin-bottom: 32px;
+  }
+
+  .venue-image,
+  .church-image {
+    max-height: auto;
+    max-width: 325px;
+  }
+
+  .map-div {
+    width: 325px;
+  }
+
+  .map-div iframe {
+    width: 325px !important;
+    height: 325px !important;
+  }
+
+  .page-section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
