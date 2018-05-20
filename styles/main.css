@@ -6,6 +6,10 @@
   background-color: #f0f0f0;
 }
 
+#snippet-sub {
+  margin-top: -8px;
+}
+
 /* Sections */
 
 .page-section {
@@ -23,8 +27,8 @@
 }
 
 #schedule {
-	border-collapse: collapse;
-	margin: 0 auto;
+  border-collapse: collapse;
+  margin: 0 auto;
 }
 
 /* Specific styles */
