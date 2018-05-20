@@ -2,7 +2,7 @@
   text-align: center;
   background-image: url('../img/bg.jpeg');
   background-size: cover;
-  background-position: 0% 25%;
+  background-position: center;
 }
 
 #snippet {
