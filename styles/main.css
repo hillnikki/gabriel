@@ -6,10 +6,6 @@
   background-color: #f0f0f0;
 }
 
-#snippet-sub {
-  margin-top: -8px;
-}
-
 /* Sections */
 
 .page-section {
@@ -97,6 +93,7 @@ iframe {
 
 .snippet-sub {
   font-size: 14px;
+  margin-top: -8px;
 }
 
 .church-image {
