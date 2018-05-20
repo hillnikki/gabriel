@@ -1,5 +1,7 @@
 #hero {
   text-align: center;
+  background-image: url('../img/bg.jpeg');
+  background-size: cover;
 }
 
 #snippet {
