@@ -171,10 +171,6 @@ hr.divider:after {
     max-width: 325px;
   }
 
-  .map-div {
-    width: 325px;
-  }
-
   .map-div iframe {
     width: 325px !important;
     height: 325px !important;
