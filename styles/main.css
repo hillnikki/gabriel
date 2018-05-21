@@ -123,7 +123,11 @@ iframe {
 }
 
 .map-div iframe {
-  max-width: 700px;
+  max-width: 500px;
+}
+
+.transportation-desc {
+  max-width: 80%;
 }
 
 .mobile-width-fix  {
