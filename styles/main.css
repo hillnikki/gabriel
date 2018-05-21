@@ -89,22 +89,22 @@ iframe {
 }
 
 .schedule-col-time {
-	letter-spacing: -1px;
-	font-weight: bold;
-	font-size: 14px;
-	padding-right: 32px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-size: 14px;
+  padding-right: 32px;
 }
 
 .schedule-col-event {
-	padding-bottom: 24px;
+  padding-bottom: 24px;
 }
 
 .schedule-item {
-	margin-bottom: 2px;
+  margin-bottom: 2px;
 }
 
 .schedule-item-sub {
-	color: #707070;
+  color: #707070;
 }
 
 .church-image {
@@ -157,28 +157,36 @@ iframe {
 }
 
 hr.divider {
-    overflow: visible; /* For IE */
-    padding: 0;
-    border: none;
-    border-top: medium double #fbfbfb;
-    color: #fbfbfb;
-    text-align: center;
-    width: 75%;
-    margin: auto;
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #fbfbfb;
+  color: #fbfbfb;
+  text-align: center;
+  width: 75%;
+  margin: auto;
 }
 
 hr.divider:after {
-    content: "JN";
-    display: inline-block;
-    position: relative;
-    top: -1.15em;
-    font-size: 0.75em;
-    padding: 0 0.25em;
-    background: white;
-    color: #cacaca;
+  content: "JN";
+  display: inline-block;
+  position: relative;
+  top: -1.15em;
+  font-size: 0.75em;
+  padding: 0 0.25em;
+  background: white;
+  color: #cacaca;
 }
 
 /* Responsive Queries */
+
+@media (max-width: 1024px) {
+  .map-div iframe {
+    width: 425px !important;
+	  height: 425px !important;
+  }
+}
+
 @media (max-width: 768px) {
   .title-section {
     margin-bottom: 32px;
@@ -191,8 +199,8 @@ hr.divider:after {
   }
 
   .map-div iframe {
-    width: 300px !important;
-    height: 300px !important;
+    width: 350px !important;
+    height: 350px !important;
   }
 
   .page-section {
