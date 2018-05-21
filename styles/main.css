@@ -180,10 +180,10 @@ hr.divider:after {
 
 /* Responsive Queries */
 
-@media (max-width: 1024px) {
+@media (max-width: 1250px) {
   .map-div iframe {
     width: 425px !important;
-	  height: 425px !important;
+    height: 425px !important;
   }
 }
 
