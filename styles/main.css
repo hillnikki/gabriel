@@ -194,12 +194,12 @@ hr.divider:after {
 
   .church-image {
     max-height: auto;
-    max-width: 350px;
+    max-width: 325px;
   }
 	
   .venue-image {
     max-height: auto;
-    max-width: 400px;
+    max-width: 375px;
   }
 
   .map-div iframe {
