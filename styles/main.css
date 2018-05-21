@@ -180,10 +180,10 @@ hr.divider:after {
 
 /* Responsive Queries */
 
-@media (max-width: 1250px) {
+@media (max-width: 1150px) {
   .map-div iframe {
-    width: 425px !important;
-    height: 425px !important;
+    width: 400px !important;
+    height: 400px !important;
   }
 }
 
@@ -195,12 +195,12 @@ hr.divider:after {
   .venue-image,
   .church-image {
     max-height: auto;
-    max-width: 325px;
+    max-width: 450px;
   }
 
   .map-div iframe {
-    width: 350px !important;
-    height: 350px !important;
+    width: 335px !important;
+    height: 335px !important;
   }
 
   .page-section {
