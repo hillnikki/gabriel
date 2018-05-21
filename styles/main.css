@@ -123,7 +123,7 @@ iframe {
 }
 
 .map-div iframe {
-  max-width: 760px;
+  max-width: 700px;
 }
 
 .mobile-width-fix  {
@@ -186,8 +186,8 @@ hr.divider:after {
   }
 
   .map-div iframe {
-    width: 325px !important;
-    height: 325px !important;
+    width: 300px !important;
+    height: 300px !important;
   }
 
   .page-section {
