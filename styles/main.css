@@ -141,21 +141,21 @@ iframe {
 }
 
 .qa-question:not(:first-child) {
-	margin-top: 64px;
+  margin-top: 64px;
 }
 
 .qa-answer {
-	color: #707070;
-	margin-left: 24px;
-	text-align: left !important;
+  color: #707070;
+  margin-left: 24px;
+  text-align: left !important;
 }
 
 hr.divider {
     overflow: visible; /* For IE */
     padding: 0;
     border: none;
-    border-top: medium double #fbfbfb;
-    color: #fbfbfb;
+    border-top: medium double #ebebeb;
+    color: #ebebeb;
     text-align: center;
     width: 75%;
     margin: auto;
@@ -169,7 +169,7 @@ hr.divider:after {
     font-size: 0.75em;
     padding: 0 0.25em;
     background: white;
-    color: #cacaca;
+    color: #ebebeb;
 }
 
 /* Responsive Queries */
