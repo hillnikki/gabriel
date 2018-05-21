@@ -203,12 +203,12 @@ hr.divider:after {
 	
   .venue-image {
     max-height: auto;
-    max-width: 350px;
+    max-width: 370px;
   }
 
   .map-div iframe {
-    width: 335px !important;
-    height: 335px !important;
+    width: 325px !important;
+    height: 325px !important;
   }
 
   .page-section {
