@@ -199,7 +199,7 @@ hr.divider:after {
 	
   .venue-image {
     max-height: auto;
-    max-width: 450px;
+    max-width: 400px;
   }
 
   .map-div iframe {
