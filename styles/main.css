@@ -1,3 +1,7 @@
+body {
+  background-color: #fefefe;
+}
+
 #hero {
   text-align: center;
   background-image: url('../img/bg.jpeg');
