@@ -192,7 +192,10 @@ hr.divider:after {
     margin-bottom: 32px;
   }
 
-  .venue-image,
+  .venue-image {
+    max-height: 225px;
+  }
+
   .church-image {
     max-height: auto;
     max-width: 450px;
