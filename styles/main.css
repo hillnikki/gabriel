@@ -9,6 +9,17 @@
   background-color: #f0f0f0;
 }
 
+#snippet .heading {
+  font-weight: bold;
+  color: #aeaeae;
+}
+
+.snippet-sub {
+  font-size: 14px;
+  font-weight: 400;
+  color: #aeaeae;
+}
+
 /* Sections */
 
 .page-section {
@@ -49,13 +60,13 @@ iframe {
 	font-family: 'Parisienne', cursive;
 	font-size: 70px !important;
 	font-weight: 400;
-	margin-bottom: 0.7rem !important;
+	margin-bottom: 0.3rem !important;
 }
 
 #hero-subtitle {
 	font-size: 19px !important;
 	color: white !important;
-	letter-spacing: -0.5px;
+	letter-spacing: 0.5px;
 }
 
 .title:not(:last-child),
@@ -91,10 +102,6 @@ iframe {
 .transportation-title {
   margin-top: 48px;
   margin-bottom: 32px;
-}
-
-.snippet-sub {
-  font-size: 14px;
 }
 
 .church-image {
