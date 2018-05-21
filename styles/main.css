@@ -203,7 +203,7 @@ hr.divider:after {
 	
   .venue-image {
     max-height: auto;
-    max-width: 375px;
+    max-width: 350px;
   }
 
   .map-div iframe {
@@ -214,5 +214,13 @@ hr.divider:after {
   .page-section {
     padding-top: 48px;
     padding-bottom: 48px;
+  }
+}
+
+@media (max-width: 525px) {
+  .church-image,
+  .venue-image {
+    max-height: auto;
+    max-width: 300px;
   }
 }
