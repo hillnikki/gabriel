@@ -9,14 +9,18 @@
   background-color: #f0f0f0;
 }
 
-#snippet .heading {
+#snippet.heading {
   font-weight: bold;
   color: #aeaeae;
 }
 
+#snippet.title {
+  margin-bottom: 0.1rem !important;
+}
+
 .snippet-sub {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: bold;
   color: #aeaeae;
 }
 
