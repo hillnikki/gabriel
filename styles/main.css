@@ -188,6 +188,10 @@ hr.divider:after {
 }
 
 @media (max-width: 768px) {
+  #hero-title {
+    font-size: 55px !important;
+  }
+	
   .title-section {
     margin-bottom: 32px;
   }
