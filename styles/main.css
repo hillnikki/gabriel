@@ -107,11 +107,6 @@ iframe {
 	color: #707070;
 }
 
-.transportation-title {
-  margin-top: 48px;
-  margin-bottom: 32px;
-}
-
 .church-image {
   max-height: 275px;
   border-radius: 3px;
@@ -126,8 +121,14 @@ iframe {
   max-width: 500px;
 }
 
+.transportation-title {
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
+
 .transportation-desc {
   max-width: 80%;
+  margin: auto;
 }
 
 .mobile-width-fix  {
