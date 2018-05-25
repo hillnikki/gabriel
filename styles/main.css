@@ -168,7 +168,7 @@ hr.divider {
 }
 
 hr.divider:after {
-  content: "JN";
+  content: "NJ";
   display: inline-block;
   position: relative;
   top: -1.15em;
