@@ -14,6 +14,14 @@ body {
   background-color: #ededed;
 }
 
+#pw {
+  background-color: #4a4a4a;
+}
+
+#pw:hover {
+  background-color: white;
+}
+
 .snippet-heading {
   font-weight: bold;
   color: #707070;
