@@ -20,7 +20,14 @@
   gtag('config', 'UA-120209580-1');
     </script>
   </head>
-  <script type="javascript" src="scripts/main.js"></script>	
+  <script type="javascript">
+      window.onload = function() {
+        var oneDay = 24*60*60*1000;
+        var today = new Date();
+        var wedding = new Date('May 18, 2019');
+        document.getElementById('countdownNumber').html = Math.round(Math.abs((today.getTime() - wedding.getTime())/(oneDay)));
+      }
+  </script>	
   <body onload="countdown()">
     <!-- ============================================ -->
     <!-- Hero -->
