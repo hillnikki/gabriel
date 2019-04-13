@@ -483,15 +483,14 @@
     </div>
     
     <script>
-      document.addEventListener("DOMContentLoaded", function() {
+      window.onload = function() {
         var oneDay = 24*60*60*1000;
         var today = new Date();
         var wedding = new Date('May 18, 2019');
 	
         var daysUntil = Math.round(Math.abs((today.getTime() - wedding.getTime())/(oneDay)));
-        alert(daysUntil);
         document.getElementById('countdownNumber').html = daysUntil;
-      });
+      }
     </script>
   </body>
 </html>
