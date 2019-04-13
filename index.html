@@ -489,6 +489,7 @@
         var wedding = new Date('May 18, 2019');
 	
         var daysUntil = Math.round(Math.abs((today.getTime() - wedding.getTime())/(oneDay)));
+        console.log(daysUntil);
         document.getElementById('countdownNumber').html = daysUntil;
       }
     </script>
